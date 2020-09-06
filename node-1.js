@@ -1,3 +1,4 @@
+// 简单的创建一个node后台服务器 通过浏览器访问8124端口号触发node响应
 var http = require('http')  //引入http模块
 // 创建一个http服务器 并设置回调函数
 http.createServer(function(request, response){
